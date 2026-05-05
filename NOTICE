@@ -4,5 +4,14 @@ Copyright (c) 2026 The bare-swift Project Authors.
 This product is licensed under the Apache License, Version 2.0, with LLVM
 exceptions. See LICENSE for details.
 
-This product includes software derived from the Rust crate `crc`.
-See https://crates.io/crates/crc for the original sources and license.
+This product includes software derived from the following Rust crates:
+
+  crc          — https://crates.io/crates/crc          (MIT OR Apache-2.0)
+  crc-catalog  — https://crates.io/crates/crc-catalog  (MIT OR Apache-2.0)
+  crc32fast    — https://crates.io/crates/crc32fast    (MIT OR Apache-2.0)
+
+The catalog of algorithm parameters is sourced from
+https://reveng.sourceforge.io/crc-catalogue/all.htm via crc-catalog.
+
+See those crates for the original sources and licenses. The Swift translation
+is independent; no Rust source is included.
